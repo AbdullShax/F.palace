@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS Files Start -->
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/swiper.css">
+    <!-- CSS Files End -->
+    <!-- FONTS File Start -->
+    <link rel="stylesheet" href="./fonts/Gilroy/stylesheet.css">
+    <link rel="stylesheet" href="./fonts/Circular Std/stylesheet.css">
+    <!-- FONTS File End -->
+    <link rel="icon" href="./images/logo_icon.svg">
+    <title>Food Mood</title>
+
+</head>
+<body>
+    <!-- Header Start -->
+    <header id="header" class="position-relative">
+        <div class="container">
+            <nav class="navbar navbar-light" data-aos="fade-down">
+                <div class="container-fluid">
+                  <a  href="#" class="navbar-brand">
+                    <img src="./images/logo.png" alt="">
+                  </a>
+                  <form class="d-flex">
+                    <button class="btn mx-3" type="submit">
+                        <img src="./images/header_icon_poisk.svg" alt="">
+                    </button>
+                    <button class="btn mx-3" type="submit">
+                        <img src="./images/header_icon_savat.svg" alt="">
+                    </button>
+                    <button class="navbar-toggler header_btn " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <img src="./images/header_burger.svg" alt="">
+                    </button>
+                  </form>
+                </div>
+                <img class="header_bg position-absolute" src="./images/bg_header.png" alt="">
+            </nav>
+        </div>
+        <div class="home">
+            <div class="container">
+                <div class="home_in d-flex position-relative">
+                    <div class="home_title" data-aos="fade-right">
+                        <h3 class="home_text_1">__Restaurant</h3>
+                        <h1 class="home_text_2">
+                            Good<img src="./images/food.svg" alt="">d
+                        </h1>
+                        <h1 class="home_text_2">
+                            Good M<img src="./images/mood.svg" alt="">d
+                        </h1>
+                        <p class="home_text_3">
+                            The food palace is an neighborhood restaurent serving seasonal global cuisine driven by the faire.
+                        </p>
+                        <a class="home_btn" href="#">
+                            Explore food menu
+                        </a>
+                        <div class="home_links d-flex justify-content-between">
+                            <a class="home_links_item home_fb" href="">
+                                <img src="./images/Facebook.svg" alt="">
+                            </a>
+                            <a class="home_links_item home_ins" href="">
+                                <img src="./images/Instagram.svg" alt="">
+                            </a>
+                            <a class="home_links_item home_tw" href="">
+                                <img src="./images/Twitter.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="home_img position-absolute" data-aos="fade-left">
+                        <img src="./images/home_bg.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+    <!-- Main Start -->
+    <main id="main">
+        <section class="about_us">
+            <div class="container">
+                <div class="row d-flex justify-content-around">
+                    <div class="about_img col-12 col-xl-6 position-relative">
+                        <img class="about_img_item position-absolute" src="./images/about_img.png" alt="">
+                    </div>
+                    <div class="about_in col-12 col-xl-5">
+                        <h4 class="about_in_text1">About us</h4>
+                        <h1 class="about_in_text2">Simple Way of Eating Delicious</h1>
+                        <p class="about_in_text3">
+                            Keep healthy food readily available. When you get hungry, you’re more likely to eat the first thing you see on the counter or in the
+                        </p>
+                        <a class="home_btn about_btn" href="">
+                            Explore our story
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="features position-relative">
+            <div class="container">
+                <div class="features_in">
+                    <h4 class="features_text1">Features</h4>
+                    <h1 class="features_text2">Our Awesome Services</h1>
+                    <div class="features_wrapper d-flex justify-content-evenly row">
+                        <div class="features_item col-6 col-md-4 text-center">
+                            <img src="./images/home-delivery.png" alt="">
+                            <h3>Quality Food</h3>
+                            <p>
+                                Keep healthy food readily available. When you get hungry, you’re more likely to 
+                            </p>
+                        </div>
+                        <div class="features_item col-6 col-md-4 text-center">
+                            <img src="./images/emojione-monotone.png" alt="">
+                            <h3>Super Taste</h3>
+                            <p>
+                                Keep healthy food readily available. When you get hungry, you’re more likely to  
+                            </p>
+                        </div>
+                        <div class="features_item col-6 col-md-4 text-center">
+                            <img src="./images/delivery-truck.png" alt="">
+                            <h3>Fast Delivery</h3>
+                            <p>
+                                Keep healthy food readily available. When you get hungry, you’re more likely to  
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="features_bg_imgs">
+                <img class=" features_bg1 position-absolute" src="./images/fea_bg.png" alt="">
+                <img class=" features_bg2 position-absolute " src="./images/fea_bg2.png" alt="">
+            </div>
+        </section>
+        <section class="recipes">
+            <div class="container">
+            <h4 class="recipes_text_h4">Recipes</h4>
+            <h2 class="recipes_img_h2">Most Popular Items <img src="./images/recipes_icon.svg" alt="#"></h2>
+            <div class="row">
+                <div class="col-3">
+                    <div class="card cards" style="width: 22rem;" data-aos="flip-up" data-aos-duration="1500">
+                        <img class="card-img-top" src="./images/img_card_1.png" alt="#">
+                        <div class="card-body">
+                          <h5 class="card-title">Flame-boiled dish <span class="recipes_cost"><img src="./images/recipes_star.svg" alt=""> 8.5</span></h5>
+                          <div class="recipes_col-3_btn">
+                              <a class="btn_prinary" href="#">ADD TO CART</a>
+                              <h5>$ 19.99</h5>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card cards" style="width: 22rem;" data-aos="flip-up" data-aos-duration="1500">
+                        <img class="card-img-top" src="./images/img_card_2.png" alt="#">
+                        <div class="card-body">
+                          <h5 class="card-title">Peach Melba dish <span class="recipes_cost"><img src="./images/recipes_star.svg" alt=""> 9.5</span></h5>
+                          <div class="recipes_col-3_btn">
+                              <a class="btn_prinary" href="#">ADD TO CART</a>
+                              <h5>$ 20.99</h5>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card cards" style="width: 22rem;" data-aos="flip-up" data-aos-duration="1500">
+                        <img class="card-img-top" src="./images/img_card_3.png" alt="#">
+                        <div class="card-body">
+                          <h5 class="card-title">Delmonico Steak dish <span class="recipes_cost"><img src="./images/recipes_star.svg" alt=""> 8.0</span></h5>
+                          <div class="recipes_col-3_btn">
+                              <a class="btn_prinary" href="#">ADD TO CART</a>
+                              <h5>$ 18.99</h5>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="recipes_btn">
+                <a href="#">See more recipes</a>
+            </div>
+            </div>
+        </section>
+        <section class="simple">
+            <div class="container">
+                <div class="row">
+                    <div class="simple_icons">
+                    <img class="simple_cola" src="./images/simple_cola_1.png" alt="#">
+                    <img class="simple_coup" src="./images/simple_coup.png" alt="#">
+                    </div>
+                    <div class="col-7 col_7_img" data-aos="zoom-in" data-aos-duration="1500">
+                        <img src="./images/Simple_phone.png" alt="">
+                    </div>
+                    <div class="col-5 col_5_img" data-aos="fade-left" data-aos-duration="1500">
+                        <h5>Take away</h5>
+                        <h1>Simple Way To Order Your Food</h1>
+                        <p>Keep healthy food readily available. When you get hungry, you’re more likely to eat the first thing you see on the counter or in the cupboard.</p>
+                        <img src="./images/simple_icons.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="tomato">
+             <div class="container">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="row row_border">
+                            <div class="col-5 col_5_left">
+                                <div class="swiper_col">
+                                    <h5>Testimonial</h5>
+                                    <h2>That’s what our Client Says</h2>
+                                    <p>“Food palace is an awesome place. Food is everything we are. It’s an extension of nationalist feeling, ethnic feeling, your personal history, your province”</p>
+    
+                                    <div class="names">
+                                        <h3>Jessica Parker</h3>
+                                        <h6>Product Designer @ Kitty</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-7">
+                                <img src="./images/tomato_img.png" alt="">
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="row">
+                            <div class="col-5 col_5_left">
+                                <div class="swiper_col">
+                                    <h5>Testimonial</h5>
+                                    <h2>That’s what our Client Says</h2>
+                                    <p>“Food palace is an awesome place. Food is everything we are. It’s an extension of nationalist feeling, ethnic feeling, your personal history, your province”</p>
+    
+                                    <div class="names">
+                                        <h3>Jessica Parker</h3>
+                                        <h6>Product Designer @ Kitty</h6>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="col-7">
+                                <img src="./images/tomato_img.png" alt="">
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="row">
+                            <div class="col-5 col_5_left">
+                                <div class="swiper_col">
+                                    <h5>Testimonial</h5>
+                                    <h2>That’s what our Client Says</h2>
+                                    <p>“Food palace is an awesome place. Food is everything we are. It’s an extension of nationalist feeling, ethnic feeling, your personal history, your province”</p>
+    
+                                    <div class="names">
+                                        <h3>Jessica Parker</h3>
+                                        <h6>Product Designer @ Kitty</h6>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="col-7">
+                                <img src="./images/tomato_img.png" alt="">
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="row">
+                            <div class="col-5 col_5_left">
+                                <div class="swiper_col">
+                                    <h5>Testimonial</h5>
+                                    <h2>That’s what our Client Says</h2>
+                                    <p>“Food palace is an awesome place. Food is everything we are. It’s an extension of nationalist feeling, ethnic feeling, your personal history, your province”</p>
+    
+                                    <div class="names">
+                                        <h3>Jessica Parker</h3>
+                                        <h6>Product Designer @ Kitty</h6>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="col-7">
+                                <img src="./images/tomato_img.png" alt="">
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="row">
+                            <div class="col-5 col_5_left">
+                                <div class="swiper_col">
+                                    <h5>Testimonial</h5>
+                                    <h2>That’s what our Client Says</h2>
+                                    <p>“Food palace is an awesome place. Food is everything we are. It’s an extension of nationalist feeling, ethnic feeling, your personal history, your province”</p>
+    
+                                    <div class="names">
+                                        <h3>Jessica Parker</h3>
+                                        <h6>Product Designer @ Kitty</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-7">
+                                <img src="./images/tomato_img.png" alt="">
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="row">
+                            <div class="col-5 col_5_left">
+                               <div class="swiper_col">
+                                <h5>Testimonial</h5>
+                                <h2>That’s what our Client Says</h2>
+                                <p>“Food palace is an awesome place. Food is everything we are. It’s an extension of nationalist feeling, ethnic feeling, your personal history, your province”</p>
+
+                                <div class="names">
+                                    <h3>Jessica Parker</h3>
+                                    <h6>Product Designer @ Kitty</h6>
+                                </div>
+                               </div>
+                            </div>
+                            <div class="col-7">
+                                <img src="./images/tomato_img.png" alt="">
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="row">
+                            <div class="col-5 col_5_left">
+                                <div class="swiper_col">
+                                    <h5>Testimonial</h5>
+                                    <h2>That’s what our Client Says</h2>
+                                    <p>“Food palace is an awesome place. Food is everything we are. It’s an extension of nationalist feeling, ethnic feeling, your personal history, your province”</p>
+    
+                                    <div class="names">
+                                        <h3>Jessica Parker</h3>
+                                        <h6>Product Designer @ Kitty</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-7">
+                                <img src="./images/tomato_img.png" alt="">
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="row">
+                            <div class="col-5 col_5_left">
+                                <div class="swiper_col">
+                                    <h5>Testimonial</h5>
+                                    <h2>That’s what our Client Says</h2>
+                                    <p>“Food palace is an awesome place. Food is everything we are. It’s an extension of nationalist feeling, ethnic feeling, your personal history, your province”</p>
+    
+                                    <div class="names">
+                                        <h3>Jessica Parker</h3>
+                                        <h6>Product Designer @ Kitty</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-7">
+                                <img src="./images/tomato_img.png" alt="">
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="row">
+                            <div class="col-5 col_5_left">
+                                <div class="swiper_col">
+                                    <h5>Testimonial</h5>
+                                    <h2>That’s what our Client Says</h2>
+                                    <p>“Food palace is an awesome place. Food is everything we are. It’s an extension of nationalist feeling, ethnic feeling, your personal history, your province”</p>
+    
+                                    <div class="names">
+                                        <h3>Jessica Parker</h3>
+                                        <h6>Product Designer @ Kitty</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-7">
+                                <img src="./images/tomato_img.png" alt="">
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+             </div>
+
+
+
+
+
+
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div class=" footer_img">
+            <img src="./images/footer_pineapple.png" alt="">
+        </div>
+        <div class="container">
+            <div class="row footer_row">  
+                <div class="col-4 ">
+                    <a class="footer_link footer_plate" href="#"> <img src="./images/footer_icon.svg" alt="#">f.palace </a>
+
+                    <a class="footer_link" href="#"><img src="./images/footer_letter.svg" alt="#">info@food_palace.com</a>
+
+                    <a class="footer_link" href="#"><img src="./images/footer_world.svg" alt="#">www.Food_palace.com</a>
+                </div>
+                <div class="col-2 footer_col">
+                    <h5>Our menu</h5>
+                    <ul>
+                        <li>Breakfast</li>
+                        <li>Lunce</li>
+                        <li>Dinner</li>
+                    </ul>
+                </div>
+                <div class="col-2 footer_col">
+                    <h5>Information</h5>
+                    <ul>
+                        <li>About us</li>
+                        <li>Testimonial</li>
+                        <li>Conditions</li>
+                    </ul>
+                </div>
+                <div class="col-2 footer_col">
+                    <h5>Useful links</h5>
+                    <ul>
+                        <li>Services</li>
+                        <li>Support</li>
+                        <li>Sonditions</li>
+                    </ul>
+                </div>
+                <div class="col-2 footer_col">
+                    <h5>Social Handles</h5>
+                    <ul>
+                        <a href="#"><li>Facebook</li></a>
+                        <a href="#"><li>Twitter</li></a>
+                        <a href="#"><li>Youtube</li></a>
+                    </ul>
+                </div>
+                <div class="heard">
+                    <img src="./images/footer_heard.png" alt="">
+                </div>
+                
+                
+                 <a class="footer_last_text" href="">Created with      by  Sajib Das Supriyo for Twinkle Creative. All rights reserved</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Main End -->
+    <!-- JS Files Start -->
+    <script src="./js/bootstrap.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="./js/swiper.js"></script>
+    <script src="./js/app.js"></script>
+    <!-- JS Files End -->
+</body>
+</html>
