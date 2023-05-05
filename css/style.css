@@ -172,11 +172,12 @@
     background: linear-gradient(180deg, rgba(255, 148, 1, 0.05) 0%, rgba(255, 237, 211, 0) 100%);
 }
 
-.row {
-    justify-content: space-evenly;
+.recipes_row {
+    justify-content: space-around;
 }
 
 .recipes_text_h4 {
+    padding-top: 87px;
     text-align: center;
     font-weight: 600;
     font-size: 24px;
@@ -191,12 +192,25 @@
     line-height: 60px;
     color: #2E2E2E;  
     text-align: center;
+    margin-bottom: 73px;
 }
 
-.recipes_img_h2 img {
-    transform: translateY(-20px);
+.recipes_icon {
+    position: relative;
     margin-left: 66px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.recipes_icon img {
+    position: absolute;
+    top: -30px;
+    padding-left: 66px;
+    right: 250px;
+    z-index: -2;
+}
+
 
 .card-img-top {
     padding: 10px;
@@ -283,7 +297,6 @@
 
 .simple {
     padding-top: 131px;
-    position: relative;
 }
 
 .simple_icons {
@@ -292,15 +305,23 @@
 
 .simple_cola {
     position: absolute;
-    top: -100px;
-    left: -100px;
+    top: 0;
+    left: 0;
+    z-index: 2;
 }
 
 .simple_coup {
     position: absolute;
-    top: -100px;
-    right: 0px;
+    top: 0;
+    right: 0;
+    z-index: 2;
 }
+
+.col_7_img img {
+    width: 80%;
+    margin: 0 auto;
+}
+
 
 .col_5_img h5 {
     margin-top: 138px;
@@ -334,27 +355,6 @@
 .tomato {
     padding-bottom: 228px;
 }
-
-/* swiper_slayder start */
-.swiper {
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-
-  .swiper-slide {
-    background-position: center;
-    background-size: cover;
-    width: 150px;
-    height: 300px;
-  }
-
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-  }
-/* swiper_slayder end */
-
 
 .col_5_left {
     display: flex;
@@ -417,10 +417,21 @@
     background: linear-gradient(180deg, rgba(255, 148, 1, 0.05) 0%, rgba(255, 237, 211, 0) 100%);
 }
 
-.footer_img img {
+.footer_img {
+    position: absolute;
+}
+
+.ananas {
     position: absolute;
     top: -110px;
     left: 10px;
+    z-index: -3;
+}
+
+.heard  {
+    position: absolute;
+    top: 0;
+    right: 0;
     z-index: -3;
 }
 
@@ -434,15 +445,6 @@
     margin-right: 10px; 
 }
 
-.heard {
-    position: absolute;
-}
-
-.heard img {
-    position: absolute;
-    right: 0;
-    top: -150px;
-}
 
 .footer_row {
     padding-top: 85px;
@@ -496,35 +498,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* MEDIA START */
 @media only screen and (max-width: 1125px){
     .home_img{
@@ -539,6 +512,47 @@
     .features_bg_imgs{
         display: none;
     }
+
+    .card_col {
+        padding: 10px;
+    }
+
+    .recipes_icon img {
+        display: none;
+    }
+
+    .col_5_left h5 {
+        text-align: center;
+    }
+
+    .col_5_left h2 {
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .col_5_left p {
+        text-align: center;
+    }
+
+    .names {
+        text-align: center;
+    }
+
+    .col_5_left img {
+        width: 90%;
+    }
+
+    .ananas {
+        display: none;
+    }
+
+    .heard {
+        display: none;
+    }
+
+    .footer_col {
+        text-align: center;
+    }
 }
 @media only screen and (max-width: 767px){
     .home_text_2{
@@ -548,11 +562,71 @@
     .features_item{
         margin-top: 40px !important;
     }
+
+    .simple_cola {
+        display: none;
+    }
+
+    .simple_coup {
+        display: none;
+    }
+
+    .col_7_img {
+        order: 2;
+    }
+
+    .col_7_img img {
+        width: 90%;
+    }
+
+    .col_5_img {
+        order: 1;
+    }
+    .col_5_img h5 {
+        text-align: center;
+        margin: 0;
+    }
+
+    .col_5_img h1 {
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .col_5_img p {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .col_5_img img {
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 20px;
+
+    }
+
+    .recipes_text_h4 {
+        padding-top: 0;
+    }
+
+    .recipes_row {
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
 }
 @media only screen and (max-width: 432px){
     .home_text_2{
         font-size: 50px;
         line-height: 45px;
     }
+
+    .recipes_icon {
+        text-align: center;
+        margin-left: 0;
+        padding-left: 0;
+    }
+
 }
+
 /* MEDIA END */
